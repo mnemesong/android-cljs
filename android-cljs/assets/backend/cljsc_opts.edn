@@ -1,0 +1,1 @@
+{:main android-cljs.backend, :output-to "android-cljs/main.js", :output-dir "android-cljs/assets/backend", :asset-path "assets/backend", :target :nodejs, :npm-deps {:androidjs "2.0.2"}, :verbose true}

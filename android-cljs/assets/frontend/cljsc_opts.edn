@@ -1,0 +1,1 @@
+{:main android-cljs.frontend, :output-to "android-cljs/assets/frontend.js", :output-dir "android-cljs/assets/frontend", :asset-path "../assets/frontend", :target :browser, :verbose true}

@@ -1,0 +1,14 @@
+{
+    "version": "1.1.0",
+    "name": "android-cljs",
+    "description": "Template of contructor androidjs app from mies tempate",
+    "scripts": {
+        "init": "androidjs init"
+    },
+    "author": "Anatoly-Starodubtsev",
+    "license": "MIT",
+    "dependencies": {
+        "androidjs": "^2.0.2",
+        "androidjs-builder": "^2.3.2"
+    }
+}
