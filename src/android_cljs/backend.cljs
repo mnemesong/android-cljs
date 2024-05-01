@@ -4,7 +4,8 @@
 
 (.on androidjs/back
   "hello from front"
-  #(try (do (general/log-console)
-         (.send androidjs/back "hello from back" "Hello from Android JS server!")
-         0)
-        (catch :default e (js/console.log e))))
+  #(try (do 
+    (general/log-console)
+    (.send androidjs/back "hello from back" "Hello from Android JS server!")
+    0)
+    (catch :default e (js/console.log e))))

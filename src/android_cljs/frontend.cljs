@@ -5,6 +5,7 @@
 
 (js/front.on
   "hello from back"
-  (fn [msg] (do (general/log-console)
-            (.log js/console msg) 
-            (set! (. (js/document.getElementById "msg") -innerHTML) msg))))
+  (fn [msg] (do 
+    (general/log-console)
+    (.log js/console msg) 
+    (set! (. (js/document.getElementById "msg") -innerHTML) msg))))
