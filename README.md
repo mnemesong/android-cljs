@@ -1,6 +1,9 @@
 # android-cljs
 Mies clojurescript integration into android-js framework
 
+## REPOSITORY IS DEPRECATED!
+Repository is deprecated! Actual repository at: https://gitflic.ru/project/pantagruel74/android-cljs
+
 
 ## Android-js API
 https://android-js.github.io/docs/https://android-js.github.io/docs/
